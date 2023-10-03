@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>User Registration</title>
+    <style>
+        /* Add background image */
+        body {
+            background-image: url('static/images/bg1.png'); /* Replace with the actual path or URL to your background image */
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* No repeating of the image */
+            background-attachment: fixed; /* Fixed background so it doesn't scroll */
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-white">
+        <div class="row mt-5">
+          <div class="col-md-6 animate__animated animate__slideInLeft"> <!-- Apply fade-in animation here -->
+            <div class="about-img">
+              <img src="static/images/logo.jpg" class="img-fluid" alt="..." style="height: 500px; width: 500px;">       
+            </div>
+          </div>
+            <div class="col-md-4 mx-auto shadow p-3 animate__animated animate__slideInRight">
+                <h5 class="text-center">User Register</h5>
+            <form method="post">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="mobileNo" class="form-label">Mobile Number</label>
+                    <input type="email" class="form-control" id="mobileNo" maxlength="10" placeholder="Mobile Number">
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label">password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password">
+                  </div>
+                  <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Confirm password</label>
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm password">
+                  </div>
+                  <div class="mb-3">
+                    <input type="submit" value="Register" class="btn btn-danger">
+                    Already User?<a href="login.html" style="text-decoration: none;">&nbsp;&nbsp;Login</a>
+                  </div>
+                  
+                  
+            </form>
+        </div>
+
+        </div>
+
+
+    </div>
+    <script src="static/js/bootstrap.min.js"></script>
+    <scripts src="static/js/popper.js"></scripts>
+    
+</body>
+</html>
