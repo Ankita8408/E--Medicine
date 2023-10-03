@@ -1,2 +1,2 @@
-# E--Medicine
+# E-Medicine
 Static Website
